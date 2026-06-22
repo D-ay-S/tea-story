@@ -157,7 +157,7 @@ function updateScatter(year) {
 }
 
 onMounted(() => {
-  fetch('https://geo.datav.aliyun.com/areas_v3/bound/100000_full.json')
+  fetch('./china.json')
     .then((r) => r.json())
     .then((geo) => {
       echarts.registerMap('china', geo)
