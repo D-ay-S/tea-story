@@ -1,0 +1,172 @@
+// 人群品类偏好（2006–2025 逐年）
+export const barByYear = {
+  'Z世代': {
+    2006: { green: 29, black: 36, oolong: 19, fruit: 8, flower: 8 },
+    2007: { green: 28, black: 34, oolong: 20, fruit: 9, flower: 9 },
+    2008: { green: 31, black: 32, oolong: 20, fruit: 9, flower: 8 },
+    2009: { green: 27, black: 33, oolong: 21, fruit: 10, flower: 9 },
+    2010: { green: 27, black: 32, oolong: 22, fruit: 10, flower: 9 },
+    2011: { green: 25, black: 33, oolong: 22, fruit: 11, flower: 9 },
+    2012: { green: 26, black: 32, oolong: 20, fruit: 12, flower: 10 },
+    2013: { green: 25, black: 32, oolong: 22, fruit: 12, flower: 9 },
+    2014: { green: 25, black: 32, oolong: 21, fruit: 13, flower: 9 },
+    2015: { green: 23, black: 32, oolong: 22, fruit: 13, flower: 10 },
+    2016: { green: 23, black: 31, oolong: 22, fruit: 14, flower: 10 },
+    2017: { green: 22, black: 29, oolong: 24, fruit: 14, flower: 11 },
+    2018: { green: 22, black: 30, oolong: 22, fruit: 16, flower: 10 },
+    2019: { green: 22, black: 29, oolong: 22, fruit: 16, flower: 11 },
+    2020: { green: 19, black: 31, oolong: 23, fruit: 16, flower: 11 },
+    2021: { green: 19, black: 29, oolong: 23, fruit: 18, flower: 11 },
+    2022: { green: 16, black: 31, oolong: 23, fruit: 18, flower: 12 },
+    2023: { green: 17, black: 29, oolong: 23, fruit: 19, flower: 12 },
+    2024: { green: 16, black: 28, oolong: 24, fruit: 20, flower: 12 },
+    2025: { green: 17, black: 28, oolong: 24, fruit: 19, flower: 12 },
+  },
+  '新中产': {
+    2006: { green: 31, black: 23, oolong: 22, fruit: 12, flower: 12 },
+    2007: { green: 30, black: 23, oolong: 23, fruit: 11, flower: 13 },
+    2008: { green: 28, black: 23, oolong: 23, fruit: 13, flower: 13 },
+    2009: { green: 29, black: 24, oolong: 23, fruit: 12, flower: 12 },
+    2010: { green: 29, black: 22, oolong: 24, fruit: 12, flower: 13 },
+    2011: { green: 28, black: 22, oolong: 25, fruit: 12, flower: 13 },
+    2012: { green: 27, black: 23, oolong: 25, fruit: 11, flower: 14 },
+    2013: { green: 25, black: 22, oolong: 28, fruit: 12, flower: 13 },
+    2014: { green: 28, black: 22, oolong: 27, fruit: 10, flower: 13 },
+    2015: { green: 24, black: 22, oolong: 28, fruit: 11, flower: 15 },
+    2016: { green: 27, black: 21, oolong: 27, fruit: 11, flower: 14 },
+    2017: { green: 26, black: 22, oolong: 27, fruit: 10, flower: 15 },
+    2018: { green: 26, black: 20, oolong: 28, fruit: 11, flower: 15 },
+    2019: { green: 24, black: 21, oolong: 29, fruit: 11, flower: 15 },
+    2020: { green: 25, black: 19, oolong: 30, fruit: 10, flower: 16 },
+    2021: { green: 22, black: 20, oolong: 31, fruit: 10, flower: 17 },
+    2022: { green: 25, black: 18, oolong: 30, fruit: 11, flower: 16 },
+    2023: { green: 24, black: 19, oolong: 31, fruit: 10, flower: 16 },
+    2024: { green: 21, black: 19, oolong: 33, fruit: 11, flower: 16 },
+    2025: { green: 22, black: 18, oolong: 34, fruit: 10, flower: 16 },
+  },
+  '银发族': {
+    2006: { green: 44, black: 23, oolong: 19, fruit: 4, flower: 10 },
+    2007: { green: 44, black: 24, oolong: 19, fruit: 4, flower: 9 },
+    2008: { green: 45, black: 23, oolong: 18, fruit: 4, flower: 10 },
+    2009: { green: 43, black: 25, oolong: 18, fruit: 4, flower: 10 },
+    2010: { green: 43, black: 25, oolong: 18, fruit: 4, flower: 10 },
+    2011: { green: 41, black: 25, oolong: 19, fruit: 5, flower: 10 },
+    2012: { green: 42, black: 24, oolong: 19, fruit: 5, flower: 10 },
+    2013: { green: 42, black: 24, oolong: 19, fruit: 5, flower: 10 },
+    2014: { green: 41, black: 24, oolong: 20, fruit: 5, flower: 10 },
+    2015: { green: 42, black: 25, oolong: 18, fruit: 5, flower: 10 },
+    2016: { green: 40, black: 25, oolong: 20, fruit: 5, flower: 10 },
+    2017: { green: 39, black: 26, oolong: 21, fruit: 5, flower: 9 },
+    2018: { green: 40, black: 26, oolong: 20, fruit: 5, flower: 9 },
+    2019: { green: 42, black: 25, oolong: 19, fruit: 5, flower: 9 },
+    2020: { green: 40, black: 26, oolong: 20, fruit: 5, flower: 9 },
+    2021: { green: 42, black: 24, oolong: 20, fruit: 5, flower: 9 },
+    2022: { green: 38, black: 27, oolong: 20, fruit: 6, flower: 9 },
+    2023: { green: 40, black: 26, oolong: 20, fruit: 5, flower: 9 },
+    2024: { green: 37, black: 26, oolong: 21, fruit: 6, flower: 10 },
+    2025: { green: 39, black: 26, oolong: 20, fruit: 6, flower: 9 },
+  },
+}
+
+// 各人群关注词云（含趋势，热度按年缩放）
+export const wordCloudData = {
+  'Z世代': [
+    { name: '颜值包装', value: 95, sentiment: 'positive', trend: 'up' },
+    { name: '冷泡', value: 88, sentiment: 'positive', trend: 'up' },
+    { name: '果香', value: 82, sentiment: 'positive', trend: 'up' },
+    { name: '社交分享', value: 78, sentiment: 'positive', trend: 'up' },
+    { name: '联名款', value: 70, sentiment: 'positive', trend: 'up' },
+    { name: '便携', value: 64, sentiment: 'neutral', trend: 'up' },
+    { name: '低咖啡因', value: 58, sentiment: 'neutral', trend: 'up' },
+    { name: '国潮', value: 75, sentiment: 'positive', trend: 'up' },
+    { name: '香精感', value: 52, sentiment: 'negative', trend: 'flat' },
+    { name: '价格偏高', value: 48, sentiment: 'negative', trend: 'up' },
+    { name: '糖分', value: 40, sentiment: 'negative', trend: 'down' },
+    { name: '茶氨酸', value: 44, sentiment: 'neutral', trend: 'up' },
+    { name: '微醺替代', value: 60, sentiment: 'positive', trend: 'up' },
+    { name: '解腻', value: 50, sentiment: 'neutral', trend: 'flat' },
+    { name: '熬夜', value: 46, sentiment: 'neutral', trend: 'flat' },
+    { name: '围炉煮茶', value: 72, sentiment: 'positive', trend: 'up' },
+    { name: '奶茶基底', value: 68, sentiment: 'positive', trend: 'up' },
+    { name: '电解质', value: 42, sentiment: 'neutral', trend: 'up' },
+    { name: '0糖0卡', value: 66, sentiment: 'positive', trend: 'up' },
+    { name: '配料表', value: 30, sentiment: 'neutral', trend: 'up' },
+    { name: '便利店', value: 54, sentiment: 'neutral', trend: 'up' },
+    { name: '出片', value: 70, sentiment: 'positive', trend: 'up' },
+    { name: '解压', value: 58, sentiment: 'positive', trend: 'up' },
+  ],
+  '新中产': [
+    { name: '原产地', value: 92, sentiment: 'positive', trend: 'up' },
+    { name: '品质', value: 90, sentiment: 'positive', trend: 'flat' },
+    { name: '乌龙', value: 80, sentiment: 'positive', trend: 'up' },
+    { name: '白茶', value: 76, sentiment: 'positive', trend: 'up' },
+    { name: '工艺', value: 72, sentiment: 'positive', trend: 'up' },
+    { name: '文化属性', value: 70, sentiment: 'positive', trend: 'up' },
+    { name: '山场', value: 64, sentiment: 'positive', trend: 'up' },
+    { name: '收藏', value: 60, sentiment: 'neutral', trend: 'up' },
+    { name: '礼赠', value: 66, sentiment: 'neutral', trend: 'flat' },
+    { name: '价格虚高', value: 54, sentiment: 'negative', trend: 'up' },
+    { name: '套路营销', value: 50, sentiment: 'negative', trend: 'up' },
+    { name: '复杂分级', value: 46, sentiment: 'negative', trend: 'flat' },
+    { name: '回甘', value: 58, sentiment: 'positive', trend: 'flat' },
+    { name: '小产区', value: 62, sentiment: 'positive', trend: 'up' },
+    { name: '冲泡门槛', value: 44, sentiment: 'neutral', trend: 'down' },
+    { name: '年份茶', value: 64, sentiment: 'positive', trend: 'up' },
+    { name: '茶器', value: 60, sentiment: 'positive', trend: 'up' },
+    { name: '私房茶', value: 56, sentiment: 'positive', trend: 'up' },
+    { name: '溯源', value: 70, sentiment: 'positive', trend: 'up' },
+    { name: '品鉴会', value: 52, sentiment: 'neutral', trend: 'up' },
+    { name: '古法', value: 58, sentiment: 'positive', trend: 'flat' },
+    { name: '送礼体面', value: 62, sentiment: 'neutral', trend: 'flat' },
+    { name: '智商税', value: 44, sentiment: 'negative', trend: 'up' },
+  ],
+  '银发族': [
+    { name: '养生', value: 96, sentiment: 'positive', trend: 'flat' },
+    { name: '绿茶', value: 88, sentiment: 'positive', trend: 'down' },
+    { name: '耐泡', value: 84, sentiment: 'positive', trend: 'flat' },
+    { name: '实惠', value: 78, sentiment: 'positive', trend: 'flat' },
+    { name: '传统', value: 74, sentiment: 'positive', trend: 'down' },
+    { name: '熟悉品牌', value: 70, sentiment: 'positive', trend: 'flat' },
+    { name: '降三高', value: 66, sentiment: 'neutral', trend: 'flat' },
+    { name: '助消化', value: 64, sentiment: 'positive', trend: 'flat' },
+    { name: '清淡', value: 60, sentiment: 'neutral', trend: 'flat' },
+    { name: '包装复杂', value: 50, sentiment: 'negative', trend: 'up' },
+    { name: '看不懂分级', value: 46, sentiment: 'negative', trend: 'up' },
+    { name: '价格偏高', value: 48, sentiment: 'negative', trend: 'up' },
+    { name: '明前', value: 56, sentiment: 'positive', trend: 'flat' },
+    { name: '散茶', value: 54, sentiment: 'neutral', trend: 'down' },
+    { name: '老字号', value: 62, sentiment: 'positive', trend: 'flat' },
+    { name: '早茶', value: 70, sentiment: 'positive', trend: 'flat' },
+    { name: '茶垢', value: 38, sentiment: 'negative', trend: 'flat' },
+    { name: '血压', value: 58, sentiment: 'neutral', trend: 'flat' },
+    { name: '茉莉花茶', value: 64, sentiment: 'positive', trend: 'flat' },
+    { name: '茶馆', value: 60, sentiment: 'positive', trend: 'down' },
+    { name: '便宜大碗', value: 56, sentiment: 'positive', trend: 'flat' },
+    { name: '睡眠', value: 46, sentiment: 'negative', trend: 'up' },
+    { name: '子女买的', value: 48, sentiment: 'neutral', trend: 'up' },
+  ],
+}
+
+// 按年返回某人群的品类偏好（用于堆叠柱）
+export function barRowsForYear(year) {
+  return ['Z世代', '新中产', '银发族'].map((g) => ({ group: g, ...barByYear[g][year] }))
+}
+
+// 词云热度按年缩放：早年整体偏低，近年偏高；并按 trend 叠加方向
+export function wordsForYear(group, year) {
+  const t = (year - 2006) / (2025 - 2006) // 0..1
+  return (wordCloudData[group] || []).map((w) => {
+    let f = 0.82 + 0.18 * t // 整体随年升温
+    if (w.trend === 'up') f *= 0.78 + 0.32 * t
+    else if (w.trend === 'down') f *= 1.18 - 0.34 * t
+    const v = Math.max(8, Math.round(w.value * f))
+    return { name: w.name, value: v, sentiment: w.sentiment }
+  })
+}
+
+export const insightCards = [
+  { group: 'Z世代', tone: 'green', title: 'Z世代消费趋势', body: '年轻消费者更关注包装颜值、社交传播与冷泡果香体验，把茶饮当作生活方式与情绪表达。' },
+  { group: '新中产', tone: 'amber', title: '新中产偏好', body: '更看重品质与文化属性，乌龙茶与白茶消费持续提升，愿为原产地与小产区溢价买单。' },
+  { group: '银发族', tone: 'blue', title: '银发族偏好', body: '偏好传统绿茶与养生属性，对"耐泡""实惠"更敏感，依赖熟悉的老字号品牌。' },
+  { group: '通用', tone: 'red', title: '市场负面反馈', body: '香精感、价格偏高与包装过度复杂化问题在各人群中均有突出反馈，是行业共同痛点。' },
+]

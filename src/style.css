@@ -1,0 +1,80 @@
+:root {
+  /* ── 茶色调统一设计令牌 ── */
+  --paper: #f6efe2;          /* 主背景：宣纸 */
+  --paper-2: #fffaf0;        /* 卡片背景 */
+  --paper-3: #fdf7ed;        /* 浅色面板 */
+  --ink: #2e2a22;            /* 主文字：墨 */
+  --ink-soft: #6b5e4f;       /* 次文字 */
+  --ink-faint: #9b8a73;      /* 弱文字 */
+
+  --tea-green: #4f6b58;      /* 绿茶 */
+  --tea-amber: #c57f3a;      /* 主强调：琥珀 / 焙火 */
+  --tea-amber-d: #a2652f;
+  --tea-red: #8b3c2c;        /* 红茶 / 出口流向 */
+  --tea-rust: #b53c2c;
+  --tea-blue: #7b9dad;       /* 降水 / 冷色 */
+  --tea-gold: #cfb53b;       /* 黄茶 / 金 */
+  --tea-oolong: #2e8b9e;     /* 青茶 */
+
+  --line: #e3d4bd;           /* 描边 */
+  --line-soft: #ede0cd;
+  --shadow-soft: 0 8px 28px rgba(80, 60, 30, 0.10);
+  --shadow-card: 0 18px 50px -20px rgba(80, 60, 30, 0.30);
+
+  --serif: 'Noto Serif SC', 'Songti SC', serif;
+  --sans: 'Noto Sans SC', 'PingFang SC', sans-serif;
+  --brush: 'Ma Shan Zheng', 'Noto Serif SC', cursive;
+
+  color-scheme: light;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--sans);
+  color: var(--ink);
+  background: var(--paper);
+  background-image:
+    radial-gradient(circle at 12% 18%, rgba(197, 127, 58, 0.06) 1.5px, transparent 1.5px),
+    radial-gradient(circle at 70% 60%, rgba(79, 107, 88, 0.05) 1.5px, transparent 1.5px);
+  background-size: 26px 26px, 34px 34px;
+  letter-spacing: 0.02em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.7;
+}
+
+/* 滚动条 */
+::-webkit-scrollbar { width: 11px; }
+::-webkit-scrollbar-track { background: #efe2d0; }
+::-webkit-scrollbar-thumb {
+  background: #cbae88;
+  border-radius: 20px;
+  border: 2px solid #efe2d0;
+}
+
+a { color: inherit; }
+
+/* 入场动画工具类 */
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.9s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.reveal.delay-1 { transition-delay: 0.12s; }
+.reveal.delay-2 { transition-delay: 0.24s; }
+.reveal.delay-3 { transition-delay: 0.36s; }
