@@ -60,7 +60,7 @@ const radarOption = computed(() => ({
   },
   legend: {
     bottom: 6,
-    data: selectedTeas.value.map((t) => t.name),
+    data: selectedTeas.value.map((t) => ({ name: t.name, itemStyle: { color: t.color } })),
     textStyle: { color: '#6b5e4f' },
   },
   tooltip: { trigger: 'item' },
