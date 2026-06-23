@@ -32,7 +32,11 @@ function seriesMatch(s) {
 const barOption = computed(() => ({
   backgroundColor: 'transparent',
   tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' } },
-  legend: { bottom: 0, textStyle: { color: '#6b5e4f' } },
+  legend: { 
+    bottom: 0, 
+    textStyle: { color: '#6b5e4f' },
+    data: series.map(s => ({ name: s.name, itemStyle: { color: s.color } }))
+  },
   grid: { left: '9%', right: '5%', top: '12%', bottom: '14%', containLabel: true },
   xAxis: {
     type: 'category',
