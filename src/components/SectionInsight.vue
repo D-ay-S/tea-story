@@ -15,11 +15,11 @@ const barData = computed(() => barRowsForYear(timeStore.year))
 const currentWords = computed(() => wordsForYear(activeGroup.value, timeStore.year))
 
 const series = [
-  { name: '绿茶', key: 'green', color: '#9dbe8a', type: '绿茶' },
-  { name: '红茶', key: 'black', color: '#c97b63', type: '红茶' },
-  { name: '乌龙茶', key: 'oolong', color: '#7e9bcf', type: '青茶' },
+  { name: '绿茶', key: 'green', color: '#4f6b58', type: '绿茶' },
+  { name: '红茶', key: 'black', color: '#8b3c2c', type: '红茶' },
+  { name: '乌龙茶', key: 'oolong', color: '#c57f3a', type: '青茶' },
   { name: '果茶', key: 'fruit', color: '#e7b87f', type: null },
-  { name: '花茶', key: 'flower', color: '#d9b8c4', type: null },
+  { name: '花茶', key: 'flower', color: '#a86a8a', type: null },
 ]
 
 // 该柱系列是否被全局茶类筛选命中
